@@ -1,0 +1,59 @@
+$palanquin-regular-font: 'Palanquin-Regular';
+$palanquin-light-font: 'Palanquin-Light';
+$pt-sans-narrow-font: 'PTSansNarrow-Regular';
+$palanquin-thin-font: 'Palanquin-Thin';
+$palanquin-medium-font: 'Palanquin-Medium';
+$icon-font-2: 'cpa-icons-2';
+
+$base-red: #f00;
+$base-white: #fff;
+$base-blue: #00f;
+$base-black: #000;
+
+$visa-secondary-black:#414042;
+
+$visa-primary-blue: #1e4392;
+$visa-toggle-blue: #32b4e5;
+$visa-tertiary-blue: #e3ecee;
+
+$visa-primary-gold: #f4b41a;
+$visa-primary-black: #262626;
+$visa-primary-orange: #f4b41a;
+
+$visa-toggle-grey: #939598;
+$visa-analysis-text-grey: #525252;
+$visa-primary-grey: #545454;
+$visa-tertiary-grey: #b0b0b0;
+$visa-border-grey: #778cba;
+$visa-modal-text-grey: #939598;
+$visa-secondary-grey: #bcbec0;
+
+$visa-multi-year-box-fill: #f6f6f6;
+
+$table-header-background: #f7f7f7;
+$graph-background-color: #19235f;
+
+$header-height:rem-calc(54.4);
+
+
+$nav-btn-color:#1e4392;
+$nav-hover-btn-color:#191e5c;
+$nav-active-btn-color:#14194c;
+
+$nav-font-color:#fff;
+$nav-hover-font-color:#fff;
+$nav-active-font-color:#898ca5;
+
+@mixin button-state($hover-color, $active-color, $hover-font-color, $active-font-color) {
+  &:hover,
+  &.cpa-style-guide-hover {
+    background: $hover-color;
+    color: $hover-font-color;
+  }
+  
+  &:active,
+  &.cpa-style-guide-active {
+    background: $active-color;
+    color: $active-font-color;
+  }
+}
